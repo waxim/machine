@@ -141,6 +141,11 @@ $machine->setSpin(5);
 $machine->addButtons($buttons);
 
 /*
+ * Start our machine up and seed our reels.
+*/
+$machine->init();
+
+/*
  * Now add some credit it and spin.
 */
 $machine->addCredit(100);
